@@ -2,15 +2,28 @@
     margin:0px ;
     padding: 0px ;
 }
+.container{
+    display: flex;
+
+    align-items: center;
+    flex-direction: row-reverse;
+    border: 1px solid gray;
+    justify-content: space-around;
+}
 .box{
     padding: 10px;
     background-color: red;
     width: 120px ;
+    height: 110px ;
+    
 }
-.box2{
+ .box2{
     background-color: blueviolet;
-} 
-  
+ }
+ .box3{
+    background-color:green ;
+ }
+ 
  
  
 
